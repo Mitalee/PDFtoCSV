@@ -23,8 +23,4 @@ def extract_text_by_page(pdf_path):
             converter.close()
             fake_file_handle.close()
  
-def extract_text(pdf_path):
-    for page in extract_text_by_page(pdf_path):
-        print(page)
-        print()
 #https://www.blog.pythonlibrary.org/2018/05/03/exporting-data-from-pdfs-with-python/
